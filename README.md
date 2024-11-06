@@ -1,5 +1,23 @@
 # Ball Trajectory Prediction with Kalman Filter and NLopt Optimization
 
+## Overview
+
+This project demonstrates the use of **Motion Capture (MoCAP)** data for predicting the trajectory of a ball using a **Kalman Filter** followed by **Non-Linear Optimization (NLopt)** for refinement. The aim is to accurately predict the ball’s path by filtering out noise and optimizing the trajectory model.
+
+## Images
+
+1. **MoCAP: Motion Capture**  
+   ![Screenshot from 2024-11-06 10-27-55](https://github.com/user-attachments/assets/d02929cf-6182-4e3b-8385-c7399532098d)
+
+2. **Kalman Filter Prediction**  
+   ![Screenshot from 2024-11-06 10-28-09](https://github.com/user-attachments/assets/bc861369-0871-4fab-97a3-cf81e373a4f9)
+
+3. **After Non-Linear Optimization**  
+   ![Screenshot from 2024-11-06 10-28-31](https://github.com/user-attachments/assets/97bd5bde-70da-4cf6-829c-82d10d758025)
+
+---
+
+
 ## Project Overview
 This project focuses on predicting the trajectory of a moving object, specifically a ball, while accounting for wind effects. The model leverages a Kalman Filter to estimate the ball’s position and velocity, correcting for noise to improve accuracy over time. Additionally, NLopt optimization is used to dynamically adjust model parameters under variable wind conditions, ensuring the model adapts effectively to external forces like wind.
 
